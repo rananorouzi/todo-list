@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",          // Required for React 17+ and JSX transformation
+    "target": "es5",             // Can be "es5" or a higher version depending on your requirements
+    "lib": ["dom", "esnext"],    // Ensures access to DOM and modern JavaScript features
+    "module": "esnext",          // TypeScript module system
+    "moduleResolution": "node",  // Resolves modules based on Node.js
+    "strict": true,              // Optional, enables strict type-checking
+    "esModuleInterop": true      // Optional, allows default imports from non-ES modules
+  }
+}

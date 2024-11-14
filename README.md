@@ -46,12 +46,8 @@ Deletes a task with the specified id.
 - **app/models.py**: Handles the task data and file operations (loading and saving tasks).
 - **app/handlers.py**: Contains the request handler class (RequestHandler) to process HTTP requests.
 - **app/server.py**: Starts the HTTP server and handles incoming requests.
-- 
----
 
-### **Frontend (React) Overview**
 
-```markdown
 ## Frontend Overview
 
 The frontend is built with **React**. It communicates with the Python backend to fetch tasks, add new ones, update their completion status, and delete them.
@@ -105,11 +101,8 @@ Click the checkbox next to a task to toggle its completion status.
 Click the delete button next to a task to remove it from both the UI and the backend.
 
 
----
 
-### **Folder Structure and Purpose**
 
-```markdown
 ## Folder Structure and Purpose
 
 ### `app/`
